@@ -19,18 +19,39 @@
     <nav class="navbar navbar-dark navbar-expand bg-dark text-light no-select">
       <a class="navbar-brand ms-3" href="#">
         <img src="https://img.icons8.com/cotton/64/000000/shop--v6.png" height="45" alt="" loading="lazy">
-        <span class="ms-2">Storefront</span>
+        <span class="ms-2">Candy Shop</span>
+        <button class="btn btn-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+          aria-controls="offcanvasRight">View Cart</button>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header">
+            <h5 id="offcanvasRightLabel">CART</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+          </div>
+        </div>
       </a>
     </nav>
   </header>
 
   <main>
     <div class="container-fluid">
-      <div class="row">
+      <div class="row" id="itemsToSell">
         <!--STUB items template-->
-        <div class="col-md-4">
-
-        </div>
+        <!-- <div class="col-md-4">
+          <div class="bg-secondary shadow rounded d-flex flex-column p-2">
+            <img
+              src="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ZW5N2LRSQ4I6ZABWPWZFLP7ROY.jpg"
+              alt="item image" class="img-fluid rounded-top">
+            <div class="p-2">
+              <p>Item Name</p>
+              <p>Item Quantity</p>
+              <p>Item Price</p>
+            </div>
+            <button class="btn btn-outline-success">Add to Cart</button>
+          </div>
+        </div> -->
       </div>
     </div>
   </main>

@@ -1,4 +1,7 @@
 class ItemsService {
+  addToCart() {
+    throw new Error("Method not implemented.");
+  }
 
 
 }
